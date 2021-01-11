@@ -28,19 +28,11 @@ class _HomeScreenState extends State<HomeScreen> {
 
   _success() {
     return Scaffold(
-      // body: ListView.builder(
-      //   itemBuilder: (context, index) {
-      //     var repository = controller.repositories[index];
-
-      //     return RepositoryCard(repository);
-      //   },
-      //   itemCount: controller.repositories.length ?? 0,
-      // ),
       body: GridView.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
           mainAxisSpacing: 2.0,
-          childAspectRatio: 0.95,
+          childAspectRatio: 0.9,
           crossAxisSpacing: 2.0,
         ),
         itemBuilder: (context, index) {

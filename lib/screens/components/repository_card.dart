@@ -40,7 +40,7 @@ class RepositoryCard extends StatelessWidget {
                     Text(
                       repository.nameRepository,
                       style: TextStyle(
-                        fontSize: 22,
+                        fontSize: 18,
                         fontWeight: FontWeight.w700,
                       ),
                     ),
@@ -50,7 +50,7 @@ class RepositoryCard extends StatelessWidget {
                     Text(
                       repository.nameUser,
                       style: TextStyle(
-                        fontSize: 16,
+                        fontSize: 15,
                         fontWeight: FontWeight.w300,
                       ),
                     ),
